@@ -1,5 +1,5 @@
-import { Category } from '../../models/category.model';
-import { CategoryTreeService } from '../category-tree.service';
+import { Category } from '../../src/domain/models/category.model';
+import { CategoryTreeService } from '../../src/domain/services/category-tree.service';
 
 describe('CategoryTreeService – getActiveLeafPaths (Fase 1)', () => {
   let service: CategoryTreeService;
